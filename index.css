@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  scroll-padding: 100px;
+}
+
+.first_bg {
+  background-image: url(image/김하온.webp);
+  /* text-align: center; */
+
+  /* padding-top: 200px; */
+  opacity: 0.9;
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100vh;
+}
+
+.first_bg_overlay {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: beige;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* .box {
+  border: 2px solid black;
+  box-shadow: #eaeaea 0px 54px 55px, #eaeaea 0px -12px 30px, #eaeaea 0px 4px 6px,
+    #eaeaea 0px 12px 13px, #eaeaea 0px -3px 5px;
+
+  display: inline-block;
+  width: fit-content;
+  height: 150px;
+} */
+
+/* .first_bg h1 {
+  font-size: 100px;
+  color: blanchedalmond;
+  height: auto;
+  padding-top: 20px;
+} */
+/* --------------------------------------------------------------------------- */
+.box {
+  border: 2px solid black;
+  box-shadow: #eaeaea 0px 54px 55px, #eaeaea 0px -12px 30px, #eaeaea 0px 4px 6px,
+    #eaeaea 0px 12px 13px, #eaeaea 0px -3px 5px;
+
+  display: inline-block;
+  width: fit-content;
+  height: 175px;
+}
+
+.second_bg {
+  background-image: url(image/fire.jpeg);
+  background-size: cover;
+  height: 110vh;
+  text-align: center;
+  padding-top: 200px;
+  scroll-snap-align: start;
+}
+
+.second_bg p {
+  font-size: 25px;
+  padding-top: 35px;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.third_box {
+  border: 2px solid black;
+  margin-top: 300px;
+  /* box-shadow: black 0px 14px 28px, black 0px 10px 10px; */
+  box-shadow: #eaeaea 0px 54px 55px, #eaeaea 0px -12px 30px, #eaeaea 0px 4px 6px,
+    #eaeaea 0px 12px 13px, #eaeaea 0px -3px 5px;
+
+  display: inline-block;
+  width: fit-content;
+  height: 175px;
+}
+
+.third_bg {
+  background-image: url(image/nevergiveup.png);
+  background-size: cover;
+  background-position: center center;
+  height: 110vh;
+  text-align: center;
+  padding-top: 200px;
+  scroll-snap-align: start;
+}
+
+.third_bg p {
+  font-size: 25px;
+  padding-top: 25px;
+  color: blanchedalmond;
+  font-weight: bold;
+
+  height: 175px;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.new_box {
+  border: 2px solid black;
+  box-shadow: black 0px 14px 28px, black 0px 10px 10px;
+  display: inline-block;
+  width: fit-content;
+  height: 175px;
+}
+
+.fourth_bg {
+  background-image: url(image/success.jpeg);
+  background-size: cover;
+  height: 110vh;
+  text-align: center;
+  padding-top: 200px;
+  scroll-snap-align: start;
+}
+
+.fourth_bg p {
+  font-size: 25px;
+  padding-top: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+footer {
+  background-color: black;
+  height: 244px;
+  width: 100%;
+  scroll-snap-align: start;
+}
